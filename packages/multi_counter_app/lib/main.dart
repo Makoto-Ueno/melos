@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:counter_app/widgets/counter_widget.dart';
+import 'package:common/common.dart';
 
 void main() {
   runApp(const MultiCounterApp());
