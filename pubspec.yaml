@@ -1,0 +1,8 @@
+name: flutter_application_1_workspace
+description: A monorepo workspace for Flutter applications
+
+environment:
+  sdk: ^3.5.4
+
+dev_dependencies:
+  melos: ^6.0.0

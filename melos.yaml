@@ -1,0 +1,21 @@
+name: flutter_application_1
+
+packages:
+  - packages/**
+
+command:
+  bootstrap:
+    runPubGetInParallel: false
+
+scripts:
+  analyze:
+    run: melos exec -- flutter analyze
+    description: Run Flutter analyze for all packages.
+
+  format:
+    run: melos exec -- dart format .
+    description: Run Dart formatter for all packages.
+
+  test:
+    run: melos exec -- flutter test
+    description: Run Flutter tests for all packages.

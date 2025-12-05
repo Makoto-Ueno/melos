@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: counter_app
+dependency_overrides:
+  counter_app:
+    path: ../counter_app
