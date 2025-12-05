@@ -1,3 +1,3 @@
-library common;
+library;
 
 export 'widgets/counter_widget.dart';
