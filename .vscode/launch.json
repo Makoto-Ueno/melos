@@ -1,0 +1,68 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "counter_app (dev)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/counter_app/lib/main_dev.dart",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "counter_app (stg)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/counter_app/lib/main_stg.dart",
+      "args": ["--flavor", "stg"]
+    },
+    {
+      "name": "counter_app (prd)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/counter_app/lib/main_prod.dart",
+      "args": ["--flavor", "prd"]
+    },
+    {
+      "name": "multi_counter_app (dev)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/multi_counter_app/lib/main_dev.dart",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "multi_counter_app (stg)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/multi_counter_app/lib/main_stg.dart",
+      "args": ["--flavor", "stg"]
+    },
+    {
+      "name": "multi_counter_app (prd)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/multi_counter_app/lib/main_prod.dart",
+      "args": ["--flavor", "prd"]
+    },
+    {
+      "name": "todo_app (dev)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/todo_app/lib/main_dev.dart",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "todo_app (stg)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/todo_app/lib/main_stg.dart",
+      "args": ["--flavor", "stg"]
+    },
+    {
+      "name": "todo_app (prd)",
+      "request": "launch",
+      "type": "dart",
+      "program": "packages/todo_app/lib/main_prod.dart",
+      "args": ["--flavor", "prd"]
+    }
+  ]
+}
