@@ -4,5 +4,11 @@ description: A monorepo workspace for Flutter applications
 environment:
   sdk: ^3.5.4
 
+workspace:
+  - packages/common
+  - packages/counter_app
+  - packages/multi_counter_app
+  - packages/todo_app
+
 dev_dependencies:
   melos: ^6.0.0
