@@ -2,7 +2,7 @@ name: flutter_application_1_workspace
 description: A monorepo workspace for Flutter applications
 
 environment:
-  sdk: ^3.5.4
+  sdk: ^3.9.0
 
 workspace:
   - packages/common
@@ -11,4 +11,4 @@ workspace:
   - packages/todo_app
 
 dev_dependencies:
-  melos: ^6.0.0
+  melos: ^7.0.0
